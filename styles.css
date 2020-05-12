@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Ruthie&display=swap');
+
 * {
   padding: 0;
   margin: 0;
@@ -10,7 +11,16 @@ body {
   font-size: 3em;
   font-family: 'Ruthie', cursive;
 }
-
+header {
+  width: 100%;
+  outline: none;
+  background-color: darkgrey;
+  color: black;
+  font-size: 0.8em;
+  font-family: 'Ruthie', cursive;
+  text-align: center;
+  border: 0;
+}
 .container {
   margin: auto;
   width: 100%;
@@ -18,7 +28,7 @@ body {
   border: 1px solid black;
   text-align: center;
   background-color: darkgrey;
-  height: 33.33vh;
+  height: 30vh;
 }
 
 input {
@@ -29,6 +39,17 @@ input {
   color: white;
   font-size: 1em;
   font-family: 'Ruthie', cursive;
+  text-align: center;
+  border: 0;
+}
+
+footer {
+  width: 100%;
+  outline: none;
+  background: black;
+  color: white;
+  font-size: 14px;
+  font-family: Asap, sans-serif;
   text-align: center;
   border: 0;
 }

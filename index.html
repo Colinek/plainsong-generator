@@ -1,22 +1,32 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Plainsong Generator</title>
-    <link rel="stylesheet" href="styles.css">
-  </head>
-  <body>
-    <div class="container">
-      <input type="text" name="plainsong" id='notes' value="" placeholder="Enter notes here ...">
-      <!--  <p id='notes'>GFED</p> -->
-    </div>
-    <div class="container">
-      <p id='propose'></p>
-    </div>
-    <div class="container">
-      <p id='leapropose'></p>
-    </div>
-    <script src="app.js" charset="utf-8"></script>
 
-  </body>
+<head>
+  <meta charset="utf-8">
+  <title>Plainsong Generator</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <header>
+    Renaissance Plainsong Composer
+  </header>
+  <div class="container">
+    <input type="text" name="plainsong" id='notes' value="" placeholder="Enter notes here ...">
+  </div>
+  <div class="container">
+    <p>Stepwise</p>
+    <p id='propose'></p>
+  </div>
+  <div class="container">
+    <p>Leaping</p>
+    <p id='leapropose'></p>
+  </div>
+  <footer>
+    &copy Colin Frame 2020
+  </footer>
+  <script src="app.js" charset="utf-8"></script>
+
+</body>
+
 </html>
